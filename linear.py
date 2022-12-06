@@ -11,7 +11,7 @@ print(tf.__version__)
 X = np.arange(-10.0,10.0, 0.2)
 np.random.shuffle(X)
 y = 74.8*10+6.25*1.64-5.0*X #Tasa Metabólica Basal Media para Hombres Mexicanos
-#
+
 
 train_end = int(0.6 * len(X))
 #print (train_end)
