@@ -8,9 +8,10 @@ import tensorflow as tf
  
 print(tf.__version__)
 
-X = np.arange(-10.0, 10.0, 1e-2)
+X = np.arange(18,73, 1)
 np.random.shuffle(X)
-y =  10.0 * X + 0.0
+y = -5*X+10*74.8+6.25*1.64 #Tasa Metabólica Basal Media para Hombres Mexicanos
+
 
 train_end = int(0.6 * len(X))
 #print (train_end)
